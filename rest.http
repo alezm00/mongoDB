@@ -1,0 +1,28 @@
+GET http://localhost:3000/sub
+
+###
+
+GET http://localhost:3000/sub/5cfad74088ce6c3abcec87a9
+
+
+###
+POST http://localhost:3000/sub
+Content-Type: application/json
+
+{
+    "name":"Marco",
+    "sub":"Polo"
+}
+
+
+###
+DELETE http://localhost:3000/sub/5cfad74088ce6c3abcec87a8
+
+
+###
+PATCH http://localhost:3000/sub/5cfad74088ce6c3abcec87a9
+Content-Type: application/json
+
+{
+    "name":"new name"
+}
