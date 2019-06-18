@@ -76,9 +76,4 @@ async function getSub(req,res,next) {
     next()
 }
 
-
-
-
-
-
 module.exports = router

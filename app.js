@@ -14,7 +14,7 @@ const db = mongoose.connection;
 db.on('error',err => {
     console.log(err)
 })
-
+/////////////////////
 const subRoute = require("./routes/sub")
 app.use("/sub", subRoute)
 
